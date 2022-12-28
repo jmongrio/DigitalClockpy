@@ -8,6 +8,7 @@ from time import strftime
 #Crear contenedor y titulo de ventana
 root = Tk()
 root.focus()
+root.resizable(0, 0)
 root.title("Digital Clock")
 root.iconbitmap("favicon.ico")
 root.config(bg='#fff')
